@@ -1,4 +1,5 @@
-# ti-cv02
+# cv02: CSS a formulár
+
 Teória a ukážky: <https://beata.stehlikova.website.tuke.sk/ti/03.html>
 
 **Odovzdávaš:** `index.html`, `form.html`, `css/style.css`, `img/obrazok.jpg` v tomto repozitári (commit a push do konca cvičenia, ideálne commit po každej úlohe) a rovnaké súbory na sigma v `public_html/ti/cv02`.
@@ -6,7 +7,7 @@ Teória a ukážky: <https://beata.stehlikova.website.tuke.sk/ti/03.html>
 **Úloha 3.1: Zadanie a klon.** Prijmi zadanie *cv02* v Classroom 50 a repozitár naklonuj do `~/web/ti/cv02` podľa návodu [04 Odovzdávanie](https://beata.stehlikova.website.tuke.sk/navody/04-odovzdavanie.html). Ak sa po reštarte Kubeflow stratilo rozšírenie SFTP, vráti ho tento príkaz v termináli:
 
 ```bash
-code-server --install-extension Natizyskunk.sftp
+code-server --install-extension Natizyskunk.sftp --install-extension yandeu.five-server --install-extension bmewburn.vscode-intelephense-client --install-extension mblode.twig-language-2
 ```
 
 Potom `F1`, **Developer: Reload Window**. Nastavenie pripojenia na sigma zostáva.
@@ -64,7 +65,7 @@ Téma webu: [DOPLŇ tému svojho projektu]
 
 **Úloha 3.7: Oživenie.** Položkám menu pridaj `:hover` a poliam formulára `:focus` s viditeľnou zmenou (farba, rámik).
 
-**Úloha 3.8: Odovzdanie.** Commit a push podľa návodu [04 Odovzdávanie](https://beata.stehlikova.website.tuke.sk/navody/04-odovzdavanie.html). Vo VS Code klikni pravým na priečinok `cv02`, **SFTP: Upload Folder**, a over v prehliadači `https://sigma.tuke.sk/student/meno.priezvisko/ti/cv02/` — obe stránky aj obrázok.
+**Úloha 3.8: Odovzdanie.** Commit a push podľa návodu [04 Odovzdávanie](https://beata.stehlikova.website.tuke.sk/navody/04-odovzdavanie.html). Klikni pravým na priečinok `cv02` a v menu úplne dole zvoľ **Upload Folder** — na sigma tým doplníš aj pretiahnutý obrázok (pri ukladaní v editore sa nahráva samo, obrázok nie). Over v prehliadači `https://sigma.tuke.sk/student/meno.priezvisko/ti/cv02/` — obe stránky aj obrázok.
 
 ---
 
@@ -77,7 +78,7 @@ Theory and examples: <https://beata.stehlikova.website.tuke.sk/ti/03.html> (swit
 **Task 3.1: Assignment and clone.** Accept the assignment *cv02* in Classroom 50 and clone the repository into `~/web/ti/cv02` following guide [04 Submitting](https://beata.stehlikova.website.tuke.sk/navody/04-odovzdavanie.html). If the SFTP extension disappeared from Kubeflow after a restart, this terminal command brings it back:
 
 ```bash
-code-server --install-extension Natizyskunk.sftp
+code-server --install-extension Natizyskunk.sftp --install-extension yandeu.five-server --install-extension bmewburn.vscode-intelephense-client --install-extension mblode.twig-language-2
 ```
 
 Then `F1`, **Developer: Reload Window**. The sigma connection settings stay.
@@ -135,4 +136,4 @@ Website topic: [FILL IN your project topic]
 
 **Task 3.7: Bring it to life.** Add `:hover` to the menu items and `:focus` to the form fields with a visible change (colour, border).
 
-**Task 3.8: Submitting.** Commit and push following guide [04 Submitting](https://beata.stehlikova.website.tuke.sk/navody/04-odovzdavanie.html). In VS Code right-click the `cv02` folder, **SFTP: Upload Folder**, and check in the browser `https://sigma.tuke.sk/student/name.surname/ti/cv02/` — both pages and the image.
+**Task 3.8: Submitting.** Commit and push following guide [04 Submitting](https://beata.stehlikova.website.tuke.sk/navody/04-odovzdavanie.html). Right-click the `cv02` folder and at the very bottom of the menu choose **Upload Folder** — this also gets the dragged image to sigma (saves in the editor upload themselves, the image does not). Check in the browser `https://sigma.tuke.sk/student/name.surname/ti/cv02/` — both pages and the image.
